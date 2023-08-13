@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <button>Saludar</button>
+    <button id="saludarBtn">Saludar</button>
+    <script>
+        function mostrarSaludo() {
+            alert("Hola!");
+        }
+        document.getElementById("saludarBtn").onclick = mostrarSaludo;
+    </script>
 </body>
 </html>
